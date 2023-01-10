@@ -9,24 +9,7 @@
         <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
 
-                <%--                <div class="item active">
-                    <div class="container">
-                        <a href="register.html">
-                            <img style="width: 100%" src="ELectronics1.jpg" alt="" /></a>
-                    </div>
-                </div>--%>
-                <%-- <div class="item">
-                    <div class="container">
-                        <a href="register.html">
-                            <img src="Books1.png" alt="" /></a>
-                    </div>
-                </div>--%>
-                <%-- <div class="item">
-                    <div class="container">
-                        <a href="register.html">
-                            <img src="Books2.jpg" alt="" /></a>
-                    </div>
-                </div>--%>
+                
                 <div class="item">
                     <div class="container">
                         <a href="register.html">
