@@ -124,8 +124,8 @@
                                 <th>Description</th>
                                 <th>Quantity/Update</th>
                                 <th>Price</th>
-                               <%-- <th>Discount</th>
-                                <th>Tax</th>--%>
+                                <th>Discount</th>
+                                <th>Tax</th>
                                 <th>Total</th>
                             </tr>
                         </thead>
@@ -134,7 +134,7 @@
                                 <ItemTemplate>
                                     <tr>
                                         <td>
-                                            <img width="60" src="../Images/Products/Carts/<%#Eval("Pphoto") %>" alt=""></a></td>
+                                            <img width="60" src="../Images/Products/<%#Eval("Pphoto") %>" alt=""></a></td>
                                         <td><%#Eval("Pname")%><br>
                                             <%#Eval("Pdescription") %></td>
                                         <td>
@@ -146,8 +146,8 @@
                                             </div>
                                         </td>
                                         <td>₹<%#Eval("Pprice") %></td>
-                                        <%--<td>$25.00</td>
-                                        <td>$15.00</td>--%>
+                                        <td>$00.00</td>
+                                        <td>$00.00</td>
                                         <td>₹<%#Eval("Total_price") %></td>
                                     </tr>
                                 </ItemTemplate>
@@ -158,18 +158,18 @@
                                 <td colspan="6" style="text-align: right">Total Price:	</td>
                                 <td>$228.00</td>
                             </tr>
-                            <tr>
+                           <%-- <tr>
                                 <td colspan="6" style="text-align: right">Total Discount:	</td>
                                 <td>$50.00</td>
                             </tr>
                             <tr>
                                 <td colspan="6" style="text-align: right">Total Tax:	</td>
                                 <td>$31.00</td>
-                            </tr>
-                            <tr>
+                            </tr>--%>
+                           <%-- <tr>
                                 <td colspan="6" style="text-align: right"><strong>TOTAL ($228 - $50 + $31) =</strong></td>
                                 <td class="label label-important" style="display: block"><strong>₹155.00 </strong></td>
-                            </tr>
+                            </tr>--%>
                         </tbody>
                     </table>
 

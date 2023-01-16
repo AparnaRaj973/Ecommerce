@@ -87,16 +87,28 @@
                                 <div class="carousel-inner">
                                     <% 
                                         int i = 0;
+                                        int j = 0;
                                         foreach (var myEmp in categories)
                                         {
                                     %>
-                                    <%if (i == 0)
-                                        {%>
 
+                                    <%
+                                        if (j == 0)
+                                        {
+                                     %>
 
                                     <div class="item active">
                                         <ul class="thumbnails">
-                                            <%} %>
+                                      <%} %>
+
+                                    <%
+                                        else if (i == 0)
+                                        {
+                                     %>
+
+                                    <div class="item">
+                                        <ul class="thumbnails">
+                                      <%} %>
                                             <li class="span3">
                                                 <div class="thumbnail">
                                                     <i class="tag"></i>
@@ -110,23 +122,30 @@
                                                     </div>
                                                 </div>
                                             </li>
-                                            <% i = i + 1;
-                                                if (i == 4)
+                                            <% 
+                                                i = i + 1;
+                                                j = j + 1;
+                                                if (i == 4 || j ==  categories.Count)
                                                 {
                                                     i = 0;
                                             %>
                                         </ul>
                                     </div>
 
-                                    <% }
-                                        } %>
+                                            <% 
+                                                }
+                                                } 
+                                            %>
 
-
-                                    <a class="left carousel-control" href="#featured" data-slide="prev">‹</a>
-                                    <a class="right carousel-control" href="#featured" data-slide="next">›</a>
+                                    <%if (categories.Count > 4)
+                                        {%>
+                                        <a class="left carousel-control" href="#featured" data-slide="prev">‹</a>
+                                        <a class="right carousel-control" href="#featured" data-slide="next">›</a>
+                                    <%} %>
                                 </div>
                             </div>
                         </div>
+                            </div>
                         <h4>Latest Products </h4>
                         <ul class="thumbnails">
                             <li class="span3">

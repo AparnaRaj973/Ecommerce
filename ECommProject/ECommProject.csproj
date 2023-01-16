@@ -89,8 +89,6 @@
     <Content Include="Images\no-image-available.jpg" />
     <Content Include="Images\panasonic.jpg" />
     <Content Include="Images\Products\C2.jpg" />
-    <Content Include="Images\Products\Carts\C1.jpg" />
-    <Content Include="Images\Products\Carts\M2.jpg" />
     <Content Include="Images\Products\M2.jpg" />
     <Content Include="Images\Products\Productdetails\C2.jpg" />
     <Content Include="Images\Products\Productdetails\M2.jpg" />
